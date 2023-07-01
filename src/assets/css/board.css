@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .content {
+    padding: 100px;
+    text-align: center;
+  }
+  .content .heading {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+  }
+  
+  .content .create-button {
+    margin-left: auto;
+    margin-top: -45px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  .content .create-button .plus-icon {
+    margin-right: 5px;
+  }
+  .content .add-something-icon {
+    font-size: 48px;
+    color: #888;
+    margin-bottom: 10px;
+  }
+  .content .no-posts-text {
+    color: #888;
+  }
+  .content .create-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  .add-something-icon img{
+      height: 120px;
+      margin-top: 70px;
+  }
+
+
+
+  .ps-cn{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-y: scroll;
+    margin-top: 100px;
+  }
+
+  .hf-cn{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cr-btn{
+    cursor: pointer;
+    position: fixed;
+    right: 60px;
+    top: 100px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: #AF273E;
+    border: none;
+    font-weight: 700;
+  }
+  .cr-btn:hover{
+    background-color:  #d8334f;
+  }
+  .cr-btn2{
+    width: 60px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 2rem;
+    border-radius: 100%;
+    background-color: #AF273E;
+    border: none;
+    color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+  }
+  .cr-btn2:hover{
+    background-color:  #d8334f;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .cr-btn{
+      display: none;
+
+    }
+    .cr-btn2{
+      display: block;
+    }
+    
+  }
